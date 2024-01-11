@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Emphasis</title>
+  <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css"/> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -12,24 +14,26 @@
 </head>
 
 <body>
-  <nav>
-    <div class="nav_left">
-      <ul>
-        <li><a href="#">Home </a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Product</a></li>
-      </ul>
-    </div>
-    <div class="middle">
-      <a href="#">Logo</a>
-    </div>
-    <div class="nav_right">
-      <a href="#">Our Journey</a>
-    </div>
-  </nav>
-  <main>
+  
+  <main id="main">
+    <nav>
+      <div class="nav_left">
+        <ul>
+          <li><a class="nav_link" href="#">Home </a></li>
+          <li><a class="nav_link" href="#">Pricing</a></li>
+          <li><a class="nav_link" href="#">Product</a></li>
+        </ul>
+      </div>
+      <div class="middle">
+        <a class="nav_link"href="#">Logo</a>
+      </div>
+      <div class="nav_right">
+        <a class="nav_link" href="#">Our Journey</a>
+      </div>
+    </nav>
+
     <div id="hero">
-      <div class="sustain">
+      <div class="sustain anime2">
         <h5>01.</h5>
         <h2>Sustainability</h2>
         <p>Lorem ipsum dolor sit amet consecur adi tenetur.</p>
@@ -37,15 +41,15 @@
           <img src="images/pinkgreenplant.jpg" alt="">
         </div>
       </div>
-      <div id="ephemeral">
+      <div class="anime2" id="ephemeral">
         <div class="emphemeral_image">
-          <img src="images/pinkplant.jpg" alt="">
+          <img src="images/pinkplant.jpg">
           <h1>Ephemeral Equilibrium.</h1>
           <p>Commited to Sustainability, eco-friendly choice for better tomorrow.</p>
         </div>
 
       </div>
-      <div id="visit">
+      <div class="anime2" id="visit">
         <div class="visit_circle">
           <i class="fa-regular fa-circle-down"></i>
         </div>
@@ -94,6 +98,12 @@
     </div>
     </div>
   </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
   <script src="js/script.js"></script>
 </body>
 
