@@ -112,3 +112,139 @@ nav ul{
   color: #929191;
   font-weight: 300;
 }
+#motive{
+  margin: 0 13vw ;
+  padding: 5vw 0;
+}
+#motive h3{
+  font-size: 22px;
+  font-weight: 500;
+  color: #929191;
+  text-transform: uppercase;
+}
+#motive p{
+  font-size: 35px;
+  font-weight: 500;
+  padding-left: 5vw;
+  text-align: right;
+  line-height: 1.6;
+}
+#motive p span{
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 100px;
+  margin-bottom: -10px;
+  overflow: hidden;
+}
+#motive p span img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#system{
+  width: 100%;
+ padding: 0 13vw;
+ margin: 40px 0;
+ display: flex;
+ justify-content: space-between;
+}
+.senergy{
+  width: 15vw;
+}
+.senergy_image{
+  width: 15vw;
+  height: 45vh;
+}
+.senergy_image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.senergy h2, .hermony h2{
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px 0 15px ;
+  color: #000;
+}
+.senergy p, .hermony p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+.hermony{
+  width: 18vw;
+  text-align: right;
+}
+.hermony_image{
+  width: 18vw;
+  height: 65vh;
+}
+
+.hermony img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#packaging{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.image_div{
+  width: 69vw;
+  height: 65vh;
+}
+.image_div img{
+  width: 100%;
+  height: 100%;
+  object-position: 0% 70%;
+  object-fit: cover;
+}
+.text_div{
+  width: 16vw;
+  margin-left: 40px;
+}
+.text_div h2{
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.future{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: relative;
+overflow: hidden;
+}
+.future video{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+.ftext{
+  position: relative;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ftext h2{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.ftext button{
+  padding: 6px 10px;
+  background-color: #aeaeae;
+  border: none;
+  border-radius: 10px;
+
+}
